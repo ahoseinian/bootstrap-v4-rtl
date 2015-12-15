@@ -1,0 +1,29 @@
+body{
+	direction: rtl;
+}
+.nav-tabs .nav-item,
+.navbar-brand,
+.navbar-nav .nav-item,
+[class^="col-"]{
+	float: right;
+}
+@media (min-width: 768px){
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4,
+	.col-md-5, .col-md-6, .col-md-7, .col-md-8,
+  .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+		float: right;
+	}
+}
+.navbar-nav .nav-item:first-of-type, .navbar-brand {
+	margin-left: 1rem;
+}
+.navbar-brand{
+	margin-right: 0;
+}
+.list-group, .nav-tabs{
+	padding-right: 0;
+}
+.dropdown-menu {
+	text-align: right;
+	left: inherit;
+}
