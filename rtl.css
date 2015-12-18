@@ -1,4 +1,9 @@
+@font-face {
+  font-family: yekan-web;
+  src: url(fonts/YekanWeb-Regular.woff);
+}
 body{
+	font-family: yekan-web, tahoma;
 	direction: rtl;
 }
 .nav-tabs .nav-item,
