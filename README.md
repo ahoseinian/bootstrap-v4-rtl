@@ -12,3 +12,8 @@ Then add the following in your document
 <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
 <link rel="stylesheet" href="/bower_components/bootstrap-v4-rtl/rtl.css">
 ```
+
+#### dependency
+* [Bootstrap][twbt]
+
+[twbt]: <http://v4-alpha.getbootstrap.com/>
